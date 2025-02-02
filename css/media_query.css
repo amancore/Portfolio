@@ -106,9 +106,9 @@
 	}
 
 	.menu-toggle-button {
-		background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.30) 100%);
-		backdrop-filter: blur(3px);
-		-webkit-backdrop-filter: blur(3px);
+		/* background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.30) 100%); */
+		/* backdrop-filter: blur(3px); */
+		/* -webkit-backdrop-filter: blur(3px); */
 		border: none;
 		cursor: pointer;
 		border-radius: 50%;
@@ -141,7 +141,7 @@
 	.hamburger .line {
 		width: 25px;
 		height: 2px;
-		background-color: #FFF;
+		background-color: #040404;
 		display: block;
 		margin: 6px auto;
 		-webkit-transition: all 0.3s ease-in-out;

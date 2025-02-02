@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Aman Raj</title>
+		<title>Aman Raj - Portfolio</title>
 		<link rel="icon" type="image/x-icon" href="images/Aman Raj.svg">
 		<link rel="stylesheet" href="css/swap.css">
 		<link rel="stylesheet" href="css/fancybox.min.css">
@@ -16,6 +16,22 @@
 	</head>
 
 	<body>
+		<div class="preloader">
+			<svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+				<path id="loade-svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+			</svg>
+			<div class="loader-main">
+				<div class="loading">
+					<span data-text="W">W</span>
+					<span data-text="E">E</span>
+					<span data-text="L">L</span>
+					<span data-text="C">C</span>
+					<span data-text="O">O</span>
+					<span data-text="M">M</span>
+					<span data-text="E">E</span>
+				</div>
+			</div>
+		</div>
 		<canvas id="canvas"></canvas>
 		<div class="site-containe">
 			<!-- ====================================== Header ===================================== -->
@@ -30,9 +46,9 @@
 						</a>
 						<button id="menu-toggle" class="menu-toggle-button">
 							<span class="hamburger" id="hamburger-1">
-								<span class="line"></span>
-								<span class="line"></span>
-								<span class="line"></span>
+								<span class="line" style="color: white;"></span>
+								<span class="line" style="color: white;"></span>
+								<span class="line" style="color: white;"></span>
 							</span>
 						</button>
 					</div>
@@ -246,7 +262,7 @@
 							</div>
 							<div class="services-box fade_down">
 								<div>
-									<img class="services-icon" src="images/zap-svgrepo-com.svg" alt="machine learning" style="width: 30px; height: 30px;">
+									<img class="services-icon" src="images/innovation.png" alt="machine learning" style="width: 40px; height: 40px;">
 									<p class="web-dev-text">Machine Learning</p>
 								</div>
 								<p class="visionary">Creating machine learning models for predictive analytics and data-driven decision making.
@@ -273,9 +289,9 @@
 							<div class="tabContainer">
 								<div id="one" class="Tabcondent tab-active">
 									<div class="gallery">
-										<div class="gallery-item gallery-item3">
+										<div class="gallery-item">
 											<div class="gallery-item-sub">
-												<img src="images/desktop.png"  style="width: 850px; height: 520px;" alt="project-img3.jpg">
+												<img src="images/desktop.png"  style="width: 486px; height: 273px;" alt="project-img3.jpg">
 												<div class="overlay">
 													<img src="images/dish-spoon-knife-icon.svg"alt="youtube-svg" class="vimeo-icon">
 													<p class="overlay-text">Foodie</p>
@@ -288,7 +304,7 @@
 										</div>
 										<div class="gallery-item">
 											<div class="gallery-item-sub" >
-												<img src="images/file1.jpg.png" style="width: 850px; height: 450px;"  alt="project-img1">
+												<img src="images/file1.jpg.png" style="width: 486px; height: 273px;"  alt="project-img1">
 												<div class="overlay">
 													<img src="images/web-code-icon.svg" alt="content-svg"
 														class="vimeo-icon">
@@ -302,7 +318,7 @@
 										</div>
 										<div class="gallery-item">
 											<div class="gallery-item-sub">
-												<img src="images/bgtw.png" style=" object-fit: cover;" alt="project-img2.jpg">
+												<img src="images/bgtw.png" style="width: 486px; height: 273px;" alt="project-img2.jpg">
 												<div class="overlay">
 													<img src="images/x-social-media-black-icon.svg" style="height: 45px; height: 45px;" alt="gallery-svg"
 														class="vimeo-icon">
@@ -414,24 +430,31 @@
 								<h2 class="creative brand pb-0 fade_down">Technical <span>Skills</span></h2>
 								<div class="design-skill-sub-section">
 									<div class="design-skills-img-main flip_up show">
-										<img src="images/figma-img.png" alt="figma-img">
+										<img src="images/data-structure.png" style="height: 45px; width: 45px;" alt="figma-img">
 										<div class="skill-counter-main">
 											<p>95%</p>
 											<p>Dsa & Cp</p>
 										</div>
 									</div>
 									<div class="design-skills-img-main photoshop flip_up show">
-										<img src="images/photoshop-img.png" alt="photoshop-img">
+										<img src="images/front-end-programming.png" style="height: 50px; width: 50px;" alt="photoshop-img">
 										<div class="skill-counter-main photoshop-text">
 											<p>98%</p>
 											<p>Frontend</p>
 										</div>
 									</div>
 									<div class="design-skills-img-main adobe-xd flip_up show">
-										<img src="images/adobe-xd-img.png" alt="adobe-xd-img">
+										<img src="images/layers.png"  style="height: 50px; width: 50px;"  alt="adobe-xd-img">
 										<div class="skill-counter-main adobe-xd-text">
 											<p>88%</p>
 											<p>Backend</p>
+										</div>
+									</div>
+									<div class="design-skills-img-main sketch flip_up show">
+										<img src="images/brain.png"style="height: 50px; width: 50px;"  alt="sktech-img">
+										<div class="skill-counter-main sketch-text">
+											<p>70%</p>
+											<p>AI & ML</p>
 										</div>
 									</div>
 								</div>
@@ -445,7 +468,7 @@
 												<div class="flip-box-front">
 													<div class="inner">
 														<div class="years-award-img">
-															<img class="" src="images/hackverse-img.png" style="height: 120px; height: 120px;" alt="winner-award">
+															<img class="" src="images/Untitled design.png" style="height: 60px; height: 60px;" alt="winner-award">
 															<p class="award-yer">2023</p>
 														</div>
 														<p class="award-interior">PU HackVerse</p>
@@ -469,7 +492,7 @@
 												<div class="flip-box-front">
 													<div class="inner">
 														<div class="years-award-img">
-															<img class="" src="images/yeshack.png" style="height: 80px; height: 80px;"
+															<img class="" src="images/yeshack.png" style="height: 60px; height: 60px;"
 																alt="winner-award2">
 															<p class="award-yer">2024</p>
 														</div>
@@ -493,7 +516,7 @@
 												<div class="flip-box-front">
 													<div class="inner">
 														<div class="years-award-img">
-															<img class="" src="images/code-forces.svg" style="height: 70px; height: 70px;"
+															<img class="" src="images/code-forces.svg" style="height: 60px; height: 60px;"
 																alt="winner-award3">
 															<p class="award-yer">2024</p>
 														</div>

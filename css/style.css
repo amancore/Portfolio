@@ -150,10 +150,10 @@ canvas {
     top: 0;
     left: 0;
     content: attr(data-text);
-    color: #fff;
+    color: #000000;
     opacity: 0;
     transform: rotateY(-90deg);
-    animation: loading 5s infinite;
+    animation: loading 2s infinite;
 }
 .loading span:nth-child(2)::after {
     animation-delay: 0.2s;
@@ -1075,11 +1075,11 @@ ul.slick-dots button {
     color: var(--1, #FF61F6) !important;
 }
 .sketch {
-    border: 2px solid #FFDB59;
-    background: rgba(255, 219, 89, 0.10);
+    border: 2px solid #2eb036;
+    background: rgba(64, 173, 52, 0.1);
 }
 .sketch-text p:nth-of-type(2) {
-    color: var(--1, #FFDB59) !important;
+    color: var(--1, #2eb036) !important;
 }
 .skill-counter-main p:first-of-type {
     color: var(--main-text);
