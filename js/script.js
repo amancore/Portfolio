@@ -5,7 +5,7 @@ $(document).on('DOMContentLoaded', function () {
 				"HI THERE!",
 				"I’M AMAN RAJ_",
 				"FULL STACK DEVELOPER",
-				"COMPETITIVE PROGRAMMER",
+				"COMPETITIVE PROGRAMMER",	
 			],
 			loop: true,
 		});
